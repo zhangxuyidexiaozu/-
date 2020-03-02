@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<iostream>
+
+int main()
+{int a,b,c,d,e,f,g,h,j,k,m,n,o,p,q;float i;
+printf("请输入您的生日日期\n");
+scanf("%d%d%d",&a,&b,&c);
+printf("请输入您想查询的日期\n");
+scanf("%d%d%d",&e,&f,&g);
+if(e!=a)
+{h=e-a;
+i=h/4;
+q=i;
+j=q+h*365;
+}
+k=30*f+g-30*b-c;
+m=j+k; 
+n=m%33;
+o=m%28;
+p=m%23;
+if(p<12) printf("您处于体力的高潮期\n");
+else if(p=12) printf("您处于体力的临界期\n");
+else printf("您处于体力的低潮期\n");
+if (o<14) printf("您处于情绪的高潮期\n");
+else if(o=14) printf("您处于情绪的临界期\n");
+else printf("您处于情绪的低潮期\n");
+if(n<17) printf("您处于智商的高潮期\n");
+else if (n=17) printf("您处于智商的临界期\n");
+else printf("您处于智商的低潮期\n");
+system("pause");
+}
