@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<iostream>
+
+int main()
+
+{
+	printf("武汉加油");
+	system("pause");
+
+
+
+
+
+
+}
