@@ -3,7 +3,7 @@
 
 int main()
 {int a,b,c,d,e,f,g,h,j,k,m,n,o,p,q;float i;
-printf("请输入您的生日日期\n");
+printf("请输入您的生日日期/Please enter your birthday date\n");
 scanf("%d%d%d",&a,&b,&c);
 printf("请输入您想查询的日期\n");
 scanf("%d%d%d",&e,&f,&g);
