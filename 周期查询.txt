@@ -2,6 +2,8 @@
 #include<iostream>
 
 int main()
+{int x=1;
+while(x)
 {int a,b,c,d,e,f,g,h,j,k,m,n,o,p,q;float i;
 printf("请输入您的生日日期/Please enter your birthday date\n");
 scanf("%d%d%d",&a,&b,&c);
@@ -27,5 +29,6 @@ else printf("您处于情绪的低潮期/You are in a low point in your mood\n")
 if(n<17) printf("您处于智商的高潮期/You are in a low point in your mood\n");
 else if (n=17) printf("您处于智商的临界期/You are in the critical period of IQ\n");
 else printf("您处于智商的低潮期/You are in a low point in your IQ\n");
+}
 system("pause");
 }
